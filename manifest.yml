@@ -1,0 +1,6 @@
+applications:
+- name: cal-forwarder
+  buildpack: https://github.com/cloudfoundry/nginx-buildpack
+  disk_quota: 64M
+  instances: 1
+  memory: 64M
